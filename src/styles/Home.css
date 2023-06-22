@@ -2,7 +2,11 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    color: white;
+    
+  }
+  .prompt svg{
+    cursor: pointer;
   }
   
   .about {
@@ -13,7 +17,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-color:black;
     color: #f0f0f0;
   }
   
@@ -45,15 +49,25 @@
   
   .skills h1 {
     color: #3e497a;
+    margin: 5px;
   }
-  
+  .list{
+    margin: 0px;
+  }
+  .skills{
+    color: black;
+  }
   .skills .list {
     list-style: none;
-    width: 40%;
+    width: 100%;
   }
-  
+  .item h2{
+    margin: 25px;
+  }
   .list span {
     font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px !important;
   }
   
   @media only screen and (max-width: 600px) {

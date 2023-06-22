@@ -9,12 +9,12 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <InstagramIcon onClick={()=>window.open("https://www.instagram.com/")} />
+        <TwitterIcon onClick={()=>window.open("https://twitter.com/i/flow/login")} />
+        <FacebookIcon onClick={()=>window.open("https://www.facebook.com/login/")}/>
+        <LinkedInIcon onClick={()=>window.open("https://www.linkedin.com/in/sundara-krishna-penugonda-17712720b/")}/>
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
+      
     </div>
   );
 }

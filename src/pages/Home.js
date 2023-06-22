@@ -11,9 +11,9 @@ function Home() {
         <h2> Hi, My Name is Sundara Krishna</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating new things.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
+          <LinkedInIcon onClick={()=>window.open("https://www.linkedin.com/in/sundara-krishna-penugonda-17712720b/")} />
+          <EmailIcon onClick={()=>window.open("https://accounts.google.com/v3/signin/identifier?dsh=S-1190762091%3A1687455844653118&authuser=0&continue=https%3A%2F%2Fmail.google.com&ec=GAlAFw&hl=en&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession")}/>
+          <GitHubIcon onClick={()=>window.open("https://github.com/sundar38")}/>
         </div>
       </div>
       <div className="skills">
