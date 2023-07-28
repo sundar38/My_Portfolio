@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import "../styles/ProjectDisplay.css";
@@ -7,6 +7,7 @@ import "../styles/ProjectDisplay.css";
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
+  const navigate=useNavigate()
   return (
     <div className="project">
       <h1> {project.name}</h1>
@@ -14,7 +15,7 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHubIcon />
+      <GitHubIcon onClick={()=>window.open(project.url)} style={{cursor:"pointer"}} />
     </div>
   );
 }
