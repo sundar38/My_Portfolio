@@ -3,7 +3,7 @@ import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.png";
 import Proj4 from "../assets/proj4.jpeg";
 import Proj5 from "../assets/proj5.jpeg";
-
+import Proj6 from "../assets/finance.jpg"
 
 export const ProjectList = [
   {
@@ -11,6 +11,12 @@ export const ProjectList = [
     image: Proj1,
     skills: "Reactjs,JavaScript, Material UI, HTML,CSS",
     url: "https://github.com/sundar38/cryptotracker_project"
+  },
+  {
+    name: "Personal Finance Tracker",
+    image: Proj6,
+    skills: "Reactjs, Firebase, JavaScript, Ant Design, HTML,CSS",
+    url: "https://github.com/sundar38/personal_finance_tracker"
   },
   {
     name: "ImageBazaar App Clone",
