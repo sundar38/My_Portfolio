@@ -13,26 +13,32 @@ export const ProjectList = [
     url: "https://github.com/sundar38/cryptotracker_project"
   },
   {
-    name: "ImageBazaar App Clone",
+    name: "Personal Finance Tracker",
     image: Proj2,
+    skills: "Reactjs,Firebase, JavaScript, Ant Design, HTML,CSS",
+    url: "https://github.com/sundar38/personal_finance_tracker"
+  },
+  {
+    name: "ImageBazaar App Clone",
+    image: Proj3,
     skills: "JavaScript, CSS, HTML",
     url: "https://github.com/sundar38/Imagebazaar_ap_clone"
   },
   {
     name: "Tic Tac Toe Game",
-    image: Proj3,
+    image: Proj4,
     skills: "JavaScript,HTML,CSS",
     url:"https://github.com/sundar38/Tik-tok-toe-game"
   },
   {
     name: "Student Database Management System",
-    image: Proj4,
+    image: Proj5,
     skills: "Java Swing, MySQL",
     url:"https://github.com/sundar38/Student-Database-Management-System"
   },
   {
     name: "Compressor Decompressor",
-    image: Proj5,
+    image: Proj6,
     skills: "Java Swing",
     url:"https://github.com/sundar38/compressor-decompressor"
   },
