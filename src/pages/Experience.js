@@ -21,7 +21,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Hyderabad, India
           </h4>
-          <p>Developed the web portal for Customer Service agents</p>
+          <p>Developing the web portal for Customer Service agents using Reactjs and NodeJs and modernising the order details page </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
